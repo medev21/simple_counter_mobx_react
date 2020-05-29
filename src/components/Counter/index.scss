@@ -1,0 +1,14 @@
+#counterSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .counter{
+        margin: 20px 0;
+    }
+
+    .btnsContainer{
+        .increaseBtn{ margin-right: 10px };
+        .decreaseBtn{ margin-left: 10px };
+    }
+}
